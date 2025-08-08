@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:#0f1115;color:#e5e7eb}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+header{display:flex;align-items:center;gap:12px;padding:16px 24px;border-bottom:1px solid #222}
+.logo{width:44px;height:44px;border-radius:50%;background:#111;display:flex;align-items:center;justify-content:center;font-weight:700}
+h1{margin:0 0 8px}
+.sub{color:#9ca3af}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:18px}
+.card{background:#101217;border:1px solid #1f2937;border-radius:14px;padding:16px;min-height:120px}
+.btn{display:inline-block;padding:10px 14px;border:1px solid #374151;border-radius:10px;background:#111;color:#e5e7eb;text-decoration:none}
+.btn.primary{background:#2563eb;border-color:#2563eb;color:#fff}
+.badge{padding:4px 8px;border:1px solid #374151;border-radius:999px;font-size:12px;color:#9ca3af}
+footer{border-top:1px solid #222;margin-top:24px;padding:16px 24px;color:#9ca3af}
+.hero{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;padding:24px 0}
+.hero .box{max-width:600px}
+.placeholder{height:140px;background:linear-gradient(90deg,#111 25%,#1a1d24 50%,#111 75%);background-size:400% 100%;animation:shimmer 2s infinite}
+@keyframes shimmer{0%{background-position:0 0}100%{background-position:100% 0}}
